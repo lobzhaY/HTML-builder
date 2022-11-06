@@ -31,7 +31,7 @@
 2. Создать новый **ReadStream** из файла **text.txt**. 
 3. Направить поток чтения в стандартный поток вывода.  
 
-### Советы
+### Советы 
 Для импорта в Node.js используйте [CommonJS modules](https://nodejs.org/docs/latest/api/modules.html#modules_modules_commonjs_modules). Несмотря на то, что в настоящее время Node.js уже имеет почти полную поддержку **ECMAScript modules**(import/export), данный подход ещё не полностью стабилен и подавляющее большинство кода с которым вы столкнётесь будет написано с помощью **CommonJS**.  
 Прим: ```const fs = require('fs');```  
 
